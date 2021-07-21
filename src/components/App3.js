@@ -16,7 +16,7 @@ class  App3 extends React.Component {
     Nome: <input type="text" value={this.state.nome} onChange={this.changeName}></input>
 
     <p>
-        Olá {this.state.nome}
+         {this.state.nome}
     </p>
 
         
